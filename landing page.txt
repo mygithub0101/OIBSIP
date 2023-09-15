@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Delicious</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-image: url('cafe-header.jpg'); /* Replace with your cafe header image */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .menu-item img {
+            max-width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cafe Delicious</h1>
+        <p>Your go-to place for delicious coffee and pastries</p>
+        <a href="#menu" class="btn">View Menu</a>
+    </header>
+    <div class="container">
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <img src="coffee1.jpg" alt="Coffee 1"> <!-- Replace with your menu item image -->
+                <div>
+                    <h3>Cappuccino</h3>
+                    <p>A classic coffee with steamed milk and foam.</p>
+                    <p>Price: $3.99</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="pastry1.jpg" alt="Pastry 1"> <!-- Replace with your menu item image -->
+                <div>
+                    <h3>Chocolate Croissant</h3>
+                    <p>A buttery croissant filled with rich chocolate.</p>
+                    <p>Price: $2.49</p>
+                </div>
+            </div>
+            <!-- Add more menu items as needed -->
+        </section>
+    </div>
+</body>
+</html>
